@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+p{
+  background-color: aqua;
+  padding: 20px;
+}
+
+@media screen and (min-width: 400px) {
+    .text{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    p{
+        padding: 40px;
+    }
+}
+@media screen and (min-width: 600px) {
+  
+    p{
+        padding: 80px;
+    }
+}
